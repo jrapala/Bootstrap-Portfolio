@@ -89,6 +89,32 @@ hr {
 
 /*** About Page ***/
 /*** Portfolio Page ***/
+
+.gallery img {
+  opacity: .8;
+}
+
+.gallery img:hover {
+  opacity: 1;
+  transition: opacity .5s;
+}
+
+.gallery > div {
+  padding: 10px;
+}
+
+.banner {
+  width: 260px;
+  position: absolute;
+  bottom: 20px;
+  background-color: rgba(60, 140, 136, 1);
+}
+
+.banner h4 {
+  color: #fff;
+  padding: 8px 0;
+}
+
 /*** Contact Page ***/
 /*** Form ***/
 /*** Button ***/
