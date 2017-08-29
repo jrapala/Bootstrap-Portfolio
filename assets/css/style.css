@@ -169,11 +169,6 @@ hr {
 
     /* Medium Devices, Desktops */
     @media only screen and (max-width : 992px) {
-
-    }
-
-    /* Small Devices, Tablets */
-    @media only screen and (max-width : 768px) {
       #about, #contact, #portfolio, #connect {
         margin-bottom: 40px;
       }
@@ -183,6 +178,11 @@ hr {
         margin-bottom: 120px;
       }
     }
+    }
+
+    /* Small Devices, Tablets */
+    @media only screen and (max-width : 768px) {
+
 
     /* Extra Small Devices, Phones */ 
     @media only screen and (max-width : 480px) {
