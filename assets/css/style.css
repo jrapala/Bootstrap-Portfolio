@@ -87,36 +87,42 @@ hr {
   transition: transform .25s;
 }
 
-/*** About Page ***/
 /*** Portfolio Page ***/
 
-.gallery img {
+
+.wrap {
+  position: relative;
+}
+
+#portfolio img {
   opacity: .8;
 }
 
-.gallery img:hover {
+#portfolio img:hover {
   opacity: 1;
   transition: opacity .5s;
 }
 
-.gallery > div {
+#portfolio > div > div > div {
   padding: 10px;
 }
 
-.banner {
-  width: 260px;
-  position: absolute;
-  bottom: 20px;
+.caption {
   background-color: rgba(60, 140, 136, 1);
+  color: #fff;
+  height: 40px;
+  position: absolute;
+  bottom: 30px;
+  width: 200px;
 }
 
-.banner h4 {
+.caption h4 {
   color: #fff;
-  padding: 8px 0;
+  font-size: 1.2em;
 }
 
 /*** Contact Page ***/
-/*** Form ***/
+
 /*** Button ***/
 
 .btn {
