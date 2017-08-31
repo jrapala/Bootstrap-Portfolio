@@ -40,8 +40,6 @@ body {
   color: #777; 
 }
 
-
-
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Georgia', Times, "Times New Roman", serif;
   color: #4aaaa5;
@@ -63,7 +61,6 @@ hr {
   border-bottom: 2px solid #ccc;
 }
 
-
 .navbar-default .navbar-brand {
   background-color: #4aaaa5;
   color: #fff;
@@ -72,7 +69,6 @@ hr {
 }
 
 /*** Main Content (Global) ***/
-
 
 #about, #contact, #portfolio, #connect {
   margin-top: 20px;
@@ -84,7 +80,6 @@ hr {
   margin-right: 20px;
   max-width: 175px;
 }
-
 
 /*** Aside (Global) ***/
 
@@ -110,7 +105,6 @@ hr {
   padding: 10px;
 }
 
-
 #portfolio img {
   opacity: .8;
 }
@@ -119,7 +113,6 @@ hr {
   opacity: 1;
   transition: opacity .5s;
 }
-
 
 .caption {
   background-color: rgba(60, 140, 136, 1);
@@ -184,11 +177,12 @@ hr {
 
     /* Medium Devices, Desktops */
     @media only screen and (max-width : 992px) {
+      
+      /* Correcting margins */
       #about, #contact, #portfolio, #connect {
         margin-bottom: 40px;
       }
-    }
-
+      
       #connect {
         margin-bottom: 120px;
       }
