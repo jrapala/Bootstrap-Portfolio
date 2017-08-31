@@ -81,6 +81,10 @@ hr {
   max-width: 175px;
 }
 
+.headshot-mobile {
+  max-width: 300px;
+}
+
 /*** Aside (Global) ***/
 
 .social-icons img {
@@ -182,7 +186,7 @@ hr {
       #about, #contact, #portfolio, #connect {
         margin-bottom: 40px;
       }
-      
+
       #connect {
         margin-bottom: 120px;
       }
